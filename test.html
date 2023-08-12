@@ -1,0 +1,114 @@
+<div class="bg">
+    <div class="dated">
+      <p>
+    <label for="date">Choose A Date</label>
+    <div class=dated2><input type="date" id="date" /></div>
+    </p>
+    <p>
+      <div class="time">
+        <h2>Time Slots</h2><br>
+        <label for="time">Select Time Slot:</label>
+        <select id="time" multiple>
+          <option value="07:00-08:00">07:00 am to 08:00 am</option>
+          <option value="08:00-09:00">08:00 am to 09:00 am</option>
+          <option value="09:00-10:00">09:00 am to 10:00 am</option>
+          <option value="10:00-11:00">10:00 am to 11:00 am</option>
+          <option value="11:00-12:00">11:00 am to 12:00 pm</option>
+          <option value="12:00-13:00">12:00 pm to 01:00 pm</option>
+          <option value="13:00-14:00">01:00 pm to 02:00 pm</option>
+          <option value="14:00-15:00">02:00 pm to 03:00 pm</option>
+          <option value="15:00-16:00">03:00 pm to 04:00 pm</option>
+          <option value="16:00-17:00">04:00 pm to 05:00 pm</option>
+          <option value="17:00-18:00">05:00 pm to 06:00 pm</option>
+        </select>
+      </div>
+    </div>
+    </div>
+    <p>
+      <div class="ticketType"><br>
+        <p>
+          <label for="slAdult"> SL Adult:</label>
+          <input type="number" id="slAdult1" value="0" min="0">
+        </p><br>
+        <p>
+          <label for="slChild"> SL Child:</label>
+          <input type="number" id="slChild1" value="0" min="0">
+        </p><br>
+        <p>
+          <label for="foreignAdult"> Foreign Adult:</label>
+          <input type="number" id="foreignAdult1" value="0" min="0">
+        </p><br>
+        <p>
+          <label for="foreignChild"> Foreign child:</label>
+          <input type="number" id="foreignChild1" value="0" min="0">
+        </p><br>
+        <p>
+          <label for="infant"> Infant:</label>
+          <input type="number" id="infant1" value="0" min="0">
+        </p><br>
+    
+       
+        </div></p>
+    
+      <h3>Summary Table</h3>
+           <br>
+           <br>
+    
+           <table class="Table">
+              <tr>
+                <td>Date</td>
+                <td><span id="summaryDate"></span></td>
+              </tr>
+              <tr>
+                <td>Time:</td>
+                <td><span id="summaryTime"></span></td>
+              </tr>
+    
+              <tr>
+                <td>Duration:</td>
+                <td><span id="summaryDuration"></span></td>
+              </tr>
+    
+              <tr>
+                <th class="bold">Tickets:</th>
+                <th class="bold">Charges:</th>
+              </tr>
+    
+              <tr>
+                <td><span id="slAdultNum"></span>SL Adults</td>
+                <td><span id="slAdult"></span></td>
+              </tr>
+              
+              <tr>
+                <td><span id="slChildNum"></span>SL Children</td>
+                <td><span id="slChild"></span></td>
+              </tr>
+    
+              <tr>
+                <td><span id="foreignAdultNum"></span> Foreigner Adults</td>
+                <td><span id="foreignAdult"></span></td>
+              </tr>
+    
+              <tr>
+                <td><span id="foreignChildNum"></span> Foreigner Children</td>
+                <td><span id="foreignChild"></span></td>
+              </tr>
+    
+              <tr>
+                <td><span id="infantNum"></span>Infants</td>
+                <td><span id="slAdult"></span></td>
+              </tr>
+    
+    
+            </tbody>
+            <tfoot>
+              
+              <tr class="tfooter">
+                <td colspan="6">Types Of Turtles In Sri Lanka- Summarised</td>
+              </tr>
+            </tfoot>
+          </table>
+    
+    </div>
+    
+    </div>
